@@ -1,11 +1,75 @@
-body {
-    background-color: lightcoral;
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    background-color: gray;
+}
+
+html{
+    font-size: 16px;
+}
+
+.wrapper{
+    width: 95%;
+    max-width: 1200px;
+    margin:0 auto;
+    min-width: 300px;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.gykosar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gykosar .box {
+    margin: .8rem 0;
+    background-color: white;
+}
+
+.gykosar .box h3 {
+    font-size: 2rem;
+    margin-bottom: .6rem;
+
+}
+
+.gykosar .box a {
+    background-color: #86b604;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+
+.gykosar .box p {
+    margin: .4rem 0;
+    line-height: 1.2;
 }
 
 @media(min-width: 481px)
 {
-    body
+    .box
     {
-        background-color: aqua;
+        width: 50%;
+        float: left;
     }
+    
 }
