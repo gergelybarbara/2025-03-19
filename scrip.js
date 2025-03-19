@@ -1,0 +1,1 @@
+console.log("Üdv, én vagyok a script!")
